@@ -21,7 +21,7 @@
       cy.get('[data-test="input-loginPassword"]').type('Senha123');
       //Visite a página de /home do adopet e clique no botão 'falar com o responsavel 
       cy.get('[data-test="submit-button"]').click();
-      cy.get(':nth-child(1) > .card__contact').click();
+      cy.get(':nth-child(1) > .card__contact').click()
 
       
 
